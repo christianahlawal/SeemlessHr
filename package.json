@@ -1,0 +1,22 @@
+{
+  "name": "seamlesshr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "question1.js",
+  "scripts": {
+    "test1": "mocha --no-timeouts question1.js --exit",
+    "test2": "mocha --no-timeouts question2.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.2.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.8.0",
+    "should": "^13.2.3"
+  }
+}
