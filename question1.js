@@ -1,4 +1,4 @@
-const { Builder, By, key, until, Browser} = require('selenium-webdriver')
+const { Builder, By, until, Browser} = require('selenium-webdriver')
 const {expect, assert} = require('chai')
 
 
