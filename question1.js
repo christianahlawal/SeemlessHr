@@ -3,7 +3,7 @@ const {expect, assert} = require('chai')
 
 
 
-describe('end to end testing', ()=>{
+describe('end to end testing',()=>{
     const driver = new Builder().forBrowser('firefox').build();
 
     it('should launch url', () =>{
